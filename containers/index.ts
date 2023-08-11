@@ -1,0 +1,6 @@
+export * from "./app"
+export * from "./home"
+export * from "./student"
+export * from "./Teacher"
+export * from "./account"
+export * from "./settings"

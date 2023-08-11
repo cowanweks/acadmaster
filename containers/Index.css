@@ -1,0 +1,38 @@
+*,
+html,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: none;
+  /* background: none; */
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+  /* color-scheme: dark light; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  user-select: none;
+  min-width: 524px;
+  min-height: 100vdh;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #000;
+  }
+}
