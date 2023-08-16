@@ -1,6 +1,6 @@
-[submodule "acadmaster-ui"]
-	path = acadmaster-ui
-	url = git@github.com:cowanweks/acadmaster-ui.git
-[submodule "acadmaster-server"]
-	path = acadmaster-server
-	url = git@github.com:cowanweks/acadmaster-server.git
+[submodule "acadmasterui"]
+	path = acadmasterui
+	url = git@github.com:cowanweks/acadmasterui.git
+[submodule "acadmasterserver"]
+	path = acadmasterserver
+	url = git@github.com:cowanweks/acadmasterserver.git

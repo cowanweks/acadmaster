@@ -1,7 +1,7 @@
 {
   "build": {
-    "beforeDevCommand": "cd acadmaster-ui && yarn dev",
-    "beforeBuildCommand": "cd acadmaster-ui && yarn build",
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn build",
     "devPath": "http://localhost:1420",
     "distDir": "dist",
     "withGlobalTauri": true
@@ -24,12 +24,12 @@
       "active": false,
       "copyright": "Copyright © 2020",
       "icon": [
-        "ui/assets/icons/icon.ico",
-        "ui/assets/icons/app.png",
-        "ui/assets/icons/app16.png",
-        "ui/assets/icons/app32.png",
-        "ui/assets/icons/app48.png",
-        "ui/assets/icons/app64.png"
+        "acadmasterui/assets/icons/icon.ico",
+        "acadmasterui/assets/icons/app.png",
+        "acadmasterui/assets/icons/app16.png",
+        "acadmasterui/assets/icons/app32.png",
+        "acadmasterui/assets/icons/app48.png",
+        "acadmasterui/assets/icons/app64.png"
       ],
       "identifier": "com.ultimate.softwares",
       "targets": "all"
