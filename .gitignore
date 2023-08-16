@@ -1,5 +1,4 @@
 target
-node_modules
 src/.env
-acadmaster-ui
-acadmaster-server
+acadmasterui
+acadmasterserver
