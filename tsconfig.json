@@ -2,9 +2,11 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@components/*": ["./components/*"],
-      "@containers/*": ["./containers/*"],
-      "@utils/*": ["utils/*"]
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"],
+      "@providers/*": ["providers/*"],
+      "@utils/*": ["utils/*"],
+      "@assets/*": ["assets/*"]
     },
     "target": "ESNext",
     "useDefineForClassFields": true,
@@ -22,7 +24,7 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["./components", "./containers", "./utils"],
+  "include": ["assets", "components", "containers", "providers", "utils"],
   "references": [
     {
       "path": "./tsconfig.node.json"
