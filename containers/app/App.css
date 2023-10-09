@@ -2,8 +2,9 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 135px auto;
-  grid-template-rows: auto 25px;
+  grid-template-rows: 45px auto 25px;
   grid-template-areas:
+    "sidebar header"
     "sidebar ."
     "sidebar statusbar";
   width: 100%;

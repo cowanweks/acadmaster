@@ -1,13 +1,14 @@
 import "./App.css";
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { SideBar, StatusBar } from "../../components";
+import { Header, SideBar, StatusBar } from "../../components";
 import { Student, Home, Settings, Account, Teacher } from "../../containers";
 
 const App = () => {
   return (
     <div id="App">
-      <SideBar toggled={false} />
+      {/* <SideBar toggled={false} /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home theme="dark" />} />

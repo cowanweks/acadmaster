@@ -1,6 +1,7 @@
 import { SettingOutlined } from "@ant-design/icons";
-import "./Statusbar.css";
+import "./StatusBar.css";
 import PropTypes from "prop-types";
+import React from "react";
 
 const StatusBar = (props: any) => {
   return <div id="StatusBar"></div>;

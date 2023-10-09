@@ -1,4 +1,5 @@
 export * from "./Menu"
 export * from "./SideBar"
-export * from "./Statusbar"
-export * from "./Toolbar"
+export * from "./StatusBar"
+export * from "./ToolBar"
+export * from "./Header"

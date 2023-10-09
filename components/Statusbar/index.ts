@@ -1,1 +1,1 @@
-export * from "./Statusbar"
+export * from "./StatusBar"

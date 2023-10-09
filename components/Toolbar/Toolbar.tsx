@@ -1,12 +1,12 @@
-import React from "react";
-import "./Toolbar.css";
+import "./ToolBar.css";
 import { Button, Input } from "antd";
 import { GrPrint as Printer, GrAdd as PlusOutlined } from "react-icons/gr";
 import { SearchOutlined } from "@ant-design/icons";
+import React from "react";
 
-export function Toolbar() {
+export function ToolBar() {
   return (
-    <div id="Toolbar">
+    <div id="ToolBar">
       <Input
         type="text"
         prefix={<SearchOutlined />}

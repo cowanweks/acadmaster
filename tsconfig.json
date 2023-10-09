@@ -1,5 +1,11 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@component/*": ["components/*"],
+      "@containers/*": ["containers/*"],
+      "@utils/*": ["utils/*"],
+    },
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": [
@@ -21,7 +27,9 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "./src-react"
+    "components",
+    "containers",
+    "utils"
   ],
   "references": [
     {

@@ -1,5 +1,5 @@
 import "./SideBar.css";
-import PlayIcon from "../../assets/images/play.svg";
+// import PlayIcon from "../../assets/images/play.svg";
 import React from "react";
 import {
   FiUsers,
@@ -23,9 +23,10 @@ const SideBar = (props: SideBarProps) => {
   return (
     <div id="SideBar" className={props.toggled ? "" : ""}>
       <img
+        alt="Brand Logo"
         draggable="false"
         id="acadbrand"
-        src={PlayIcon}
+        // src={PlayIcon}
         style={{ width: "135px", height: "130px", objectFit: "contain" }}
         onContextMenu={(event) => {
           event.preventDefault();
