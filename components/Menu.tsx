@@ -5,7 +5,7 @@ interface MenuProps {
   title: string;
 }
 
-function Menu(props: MenuProps) {
+export function Menu(props: MenuProps) {
   const { menuitems } = props;
   return (
     <span id="Menu">
@@ -20,5 +20,3 @@ function Menu(props: MenuProps) {
     </span>
   );
 }
-
-export { Menu };
