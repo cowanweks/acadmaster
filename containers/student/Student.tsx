@@ -1,13 +1,11 @@
 import "./Student.css";
 import React from "react";
-import { ToolBar } from "../../components";
+import { ToolBar } from "@components/ToolBar";
 
-function Student() {
+export function Student() {
   return (
     <div id="Students">
       <ToolBar />
     </div>
   );
 }
-
-export { Student };

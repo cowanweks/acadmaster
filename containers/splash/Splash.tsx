@@ -1,11 +1,9 @@
 import "./Splash.css";
-import React from "react";
-import { invoke } from "@tauri-apps/api";
 
-export const Splash = () => {
+export function Splash() {
   return (
     <div id="Splash" onContextMenu={(event) => event.preventDefault()}>
       Hello
     </div>
   );
-};
+}

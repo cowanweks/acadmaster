@@ -1,6 +1,4 @@
-import React from "react";
-import Proptypes from "prop-types";
-import "./Menu.css";
+import "css/Menu.css";
 
 interface MenuProps {
   menuitems: Array<{ icon: any; content: string; to: string }>;

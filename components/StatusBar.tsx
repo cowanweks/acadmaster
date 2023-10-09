@@ -1,5 +1,5 @@
 import { SettingOutlined } from "@ant-design/icons";
-import "./StatusBar.css";
+import "css/StatusBar.css";
 import PropTypes from "prop-types";
 import React from "react";
 

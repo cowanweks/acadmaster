@@ -1,13 +1,19 @@
 import "./App.css";
 import React from "react";
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Header, SideBar, StatusBar } from "../../components";
-import { Student, Home, Settings, Account, Teacher } from "../../containers";
+import { Header } from "@components/Header";
+import { StatusBar } from "@components/StatusBar";
+import { SideBar } from "@components/SideBar";
+import { Student } from "@containers/Student";
+import { Home } from "@containers/Home";
+import { Settings } from "@containers/Settings";
+import { Account } from "@containers/Account";
+import { Teacher } from "@containers/Teacher";
 
-const App = () => {
+export const App = () => {
   return (
     <div id="App">
-      {/* <SideBar toggled={false} /> */}
+      <SideBar toggled={false} />
       <Header />
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
@@ -21,5 +27,3 @@ const App = () => {
     </div>
   );
 };
-
-export { App };

@@ -1,6 +1,8 @@
-import "./Header.css";
+import "css/Header.css";
 import React from "react";
 
-export function Header() {
+function Header() {
   return <div id="Header">Hello from header</div>;
 }
+
+export { Header };

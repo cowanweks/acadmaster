@@ -1,6 +1,5 @@
-import "./SideBar.css";
-// import PlayIcon from "../../assets/images/play.svg";
-import React from "react";
+import "css/SideBar.css";
+
 import {
   FiUsers,
   FiSettings,

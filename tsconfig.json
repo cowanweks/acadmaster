@@ -2,17 +2,13 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@component/*": ["components/*"],
-      "@containers/*": ["containers/*"],
-      "@utils/*": ["utils/*"],
+      "@components/*": ["./components/*"],
+      "@containers/*": ["./containers/*"],
+      "@utils/*": ["utils/*"]
     },
     "target": "ESNext",
     "useDefineForClassFields": true,
-    "lib": [
-      "DOM",
-      "DOM.Iterable",
-      "ESNext"
-    ],
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
     "skipLibCheck": true,
     "esModuleInterop": false,
@@ -26,11 +22,7 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": [
-    "components",
-    "containers",
-    "utils"
-  ],
+  "include": ["./components", "./containers", "./utils"],
   "references": [
     {
       "path": "./tsconfig.node.json"
