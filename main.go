@@ -8,7 +8,9 @@ import (
 	godotenv "github.com/joho/godotenv"
 )
 
-func main() {
+func main() {}
+
+func start_server() {
 
 	// Load the .env file
 	err := godotenv.Load(".env")

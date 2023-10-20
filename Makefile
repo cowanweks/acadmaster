@@ -13,7 +13,7 @@ $(BIN): service/src/AcadServer.cpp
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 $(DLL):
-	go build -buildmode=c-shared -o $@
+	go build  -o $@ -buildmode=c-shared
 
 bootstrap:
 	mkdir -p bin
