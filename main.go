@@ -8,8 +8,6 @@ import (
 	godotenv "github.com/joho/godotenv"
 )
 
-func main() {}
-
 func start_server() {
 
 	// Load the .env file
@@ -26,3 +24,5 @@ func start_server() {
 	//Initialize the application here
 	app.InitApp()
 }
+
+func main() {}
