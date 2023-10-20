@@ -28,6 +28,5 @@ jobs:
         
     - name: Install dependencies
       run: yarn
-      
-    - run: yarn ci
+    - Build
     - run: yarn build
