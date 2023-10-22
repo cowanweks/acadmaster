@@ -1,14 +1,23 @@
-CXX=clang
+CC=gcc
 GO=go
 CCFLAGS=-g -Wall -I service/include
-CXXFLAGS+=$(CCFLAGS)
-DLL=bin/core.dll
-BIN=bin/AcadServer.exe
+LIBS=-lAdvapi32
+LDFLAGS+=-L $(LIBS)
+DLL=core.dll
+BIN=AcadServer
 
-all: $(DLL) $(BIN)
+all: bootstrap $(DLL) $(BIN)
 
-$(BIN): service/src/AcadServer.cpp
-	$(CXX) $(CXXFLAGS) -o $@ $^
+.PHONY: bootstrap clean all
+
+$(BIN): service/src/server.c service/src/service.c service/src/acadserver.c
+	$(CC) $(CCFLAGS) -o bin/$@ $^ $(LDFLAGS)
 
 $(DLL):
-	go build -buildmode=c-shared -o $@
+	go build  -o bin/$@ -buildmode=c-shared
+
+bootstrap:
+	mkdir -p bin
+
+clean:
+	$(RM) -rf bin
