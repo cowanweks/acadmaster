@@ -1,6 +1,5 @@
-import "./Teacher.css";
+import "./css/Teacher.css";
 import React from "react";
-import { ToolBar } from "../../components";
 
 const TeacherReg = () => {
   return (
@@ -13,7 +12,6 @@ const TeacherReg = () => {
 export function Teacher() {
   return (
     <div id="Teacher">
-      <ToolBar />
     </div>
   );
 }

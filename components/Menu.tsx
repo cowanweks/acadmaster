@@ -1,4 +1,4 @@
-import "css/Menu.css";
+import "./css/Menu.css";
 
 interface MenuProps {
   menuitems: Array<{ icon: any; content: string; to: string }>;

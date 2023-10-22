@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./css/Home.css";
 import React from "react";
 
 interface HomeProps {
