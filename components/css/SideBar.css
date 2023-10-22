@@ -3,7 +3,6 @@
   row-gap: 0.125em;
   width: 100%;
   grid-area: sidebar;
-  background: red;
   -webkit-user-select: none;
   user-select: none;
   grid-template-rows: 130px repeat(14, 1fr);

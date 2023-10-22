@@ -1,4 +1,4 @@
-import "./Splash.css";
+import "./css/Splash.css";
 
 export function Splash() {
   return (
