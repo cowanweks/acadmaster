@@ -22,6 +22,7 @@ fn main() {
             show_signin_window,
             show_splash_window
         ])
+        .plugin(tauri_plugin_window_state::Builder::default().build())
         .build(tauri::generate_context!())
         .expect("[x] - Error, couldn't start AcadMaster");
 
