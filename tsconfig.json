@@ -24,7 +24,7 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
-  "include": ["assets", "components", "containers", "providers", "utils"],
+  "include": ["assets", "components", "containers", "providers", "utils", "Main.tsx"],
   "references": [
     {
       "path": "./tsconfig.node.json"
