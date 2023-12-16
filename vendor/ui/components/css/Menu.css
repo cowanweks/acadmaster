@@ -1,0 +1,23 @@
+#Menu {
+  width: 125px;
+  position: absolute;
+  display: block;
+  font-size: 0.8em;
+  height: fit-content;
+}
+
+#Menu .MenuItem {
+  height: 35px;
+  display: grid;
+  cursor: pointer;
+  align-items: center;
+  text-decoration: none;
+  background: #e8e3e3;
+  grid-template-columns: 40px auto;
+}
+#Menu > * {
+  color: rgb(80, 77, 77);
+}
+#Menu .MenuItem:not(:last-child) {
+  border-bottom: 0.125em dashed #cccccc;
+}

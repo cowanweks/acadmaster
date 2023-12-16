@@ -1,0 +1,16 @@
+#App {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 135px auto;
+  grid-template-rows: 45px auto 25px;
+  grid-template-areas:
+    "sidebar header"
+    "sidebar ."
+    "sidebar statusbar";
+  width: 100%;
+  /* background: #f3e9e9; */
+  border: 1px solid #272626a4;
+}
+
+@media only screen and (max-width: 700px) {
+}
