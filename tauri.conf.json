@@ -11,49 +11,45 @@
     "version": "0.1.0"
   },
   "tauri": {
+    "allowlist": {
+      "all": false,
+      "app": {
+        "show": true
+      },
+      "window": {
+        "close": true,
+        "hide": true,
+        "show": true,
+        "maximize": true,
+        "minimize": true,
+        "unmaximize": true,
+        "unminimize": true,
+        "startDragging": true
+      }
+    },
     "bundle": {
       "active": false,
-      "android": {
-        "minSdkVersion": 24
-      },
-      "appimage": {
-        "bundleMediaFramework": false
-      },
-      "deb": {
-        "files": {}
-      },
-      "iOS": {},
-      "icon": [],
-      "identifier": "",
-      "macOS": {
-        "minimumSystemVersion": "10.13"
-      },
-      "targets": "all",
-      "updater": {
-        "active": false,
-        "pubkey": "",
-        "windows": {
-          "installMode": "passive"
-        }
-      },
-      "windows": {
-        "allowDowngrades": true,
-        "certificateThumbprint": null,
-        "digestAlgorithm": null,
-        "nsis": null,
-        "timestampUrl": null,
-        "tsp": false,
-        "webviewFixedRuntimePath": null,
-        "webviewInstallMode": {
-          "silent": true,
-          "type": "downloadBootstrapper"
-        },
-        "wix": null
-      }
+      "copyright": "Copyright © 2020",
+      "icon": [
+        "acadmasterui/assets/icons/icon.ico",
+        "acadmasterui/assets/icons/app.png",
+        "acadmasterui/assets/icons/app16.png",
+        "acadmasterui/assets/icons/app32.png",
+        "acadmasterui/assets/icons/app48.png",
+        "acadmasterui/assets/icons/app64.png"
+      ],
+      "identifier": "com.ultimate.softwares",
+      "targets": "all"
+    },
+    "security": {
+      "csp": null
     },
     "windows": [
       {
-        "label": "app_window"
+        "label": "app_window",
+        "title": "AcadMaster",
+        "maximized": true,
+        "decorations": false
       }
     ]
   }

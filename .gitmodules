@@ -1,6 +1,6 @@
-[submodule "acadmasterui"]
-	path = acadmasterui
+[submodule "ui"]
+	path = vendor/ui
 	url = git@github.com:cowanweks/acadmasterui.git
-[submodule "acadmasterserver"]
-	path = acadmasterserver
+[submodule "server"]
+	path = vendor/server
 	url = git@github.com:cowanweks/acadmasterserver.git

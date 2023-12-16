@@ -1,4 +1,4 @@
 target
-src/.env
+**/*.env
 acadmasterui
 acadmasterserver
