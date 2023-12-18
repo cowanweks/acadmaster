@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M48 0L48 0L48 48L0 48L0 0L48 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Icon 64" clip-path="url(#clip_1)">
+    <path d="M48 0L48 0L48 48L0 48L0 0L48 0Z" id="Icon-64" fill="none" stroke="none" />
+    <g id="Group" transform="translate(9 2.999998)">
+      <path d="M0 0L5 0L5 42L0 42L0 0Z" id="Rectangle" fill="#000000" fill-rule="evenodd" stroke="none" />
+      <path d="M9 2.86102e-06L16.2571 2.86102e-06L16.2571 13.0301C16.2571 13.0301 16.2571 25.8638 16.2571 33.1063C16.2571 40.3487 16.2571 42 16.2571 42L9 42L9 2.86102e-06Z" id="Rectangle-Copy" fill="#000000" fill-rule="evenodd" stroke="none" />
+      <path d="M33.0002 21L16.2569 42L16.2569 1.63802e-07L33.0002 21Z" id="Triangle" fill="#000000" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>

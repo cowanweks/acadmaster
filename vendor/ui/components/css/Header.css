@@ -1,0 +1,22 @@
+#Header {
+  grid-area: header;
+  /* background: red; */
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 0.0225em solid #dfdada85;
+}
+
+#Header .btn {
+  width: 40px;
+  color: #000000bb;
+  font-size: 1em;
+}
+
+#Header .btn:hover {
+  background: #00000033;
+  color: #fff;
+}
+
+#Header .btn:last-child:hover {
+  background: red;
+}

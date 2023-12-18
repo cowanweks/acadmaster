@@ -1,0 +1,4 @@
+#StatusBar {
+  grid-area: statusbar;
+  border-top: 0.0625em solid #b4adad85;
+}

@@ -1,0 +1,32 @@
+#SideBar {
+  display: grid;
+  row-gap: 0.125em;
+  width: 100%;
+  grid-area: sidebar;
+  -webkit-user-select: none;
+  user-select: none;
+  grid-template-rows: 130px repeat(14, 1fr);
+  border-right: 0.0625em solid #b4adad3a;
+}
+
+#SideBar #acadbrand {
+  object-fit: cover;
+  object-position: center;
+  border-bottom: 1px dashed rgba(192, 189, 189, 0.753);
+}
+
+#SideBar .nav-item {
+  display: grid;
+  padding: 0px 0px 0px 12px;
+  grid-template-columns: 32px auto;
+  align-items: center;
+  font-size: .77em;
+  cursor: pointer;
+  color: rgb(80, 77, 77);
+  text-decoration: none;
+}
+
+#SideBar .nav-item:hover {
+  background: #e6e4e4b9;
+  border-right: 4px solid rgba(50, 128, 231, 0.658);
+}
