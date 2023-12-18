@@ -1,0 +1,11 @@
+{
+  "license": "MIT",
+
+  
+  "scripts": {
+        "dev": "cd vendor/ui && node_modules/.bin/vite --host",
+        "build": "cd vendor/ui && node_modules/.bin/tsc && node_modules/.bin/vite build --emptyOutDir",
+        "preview": "cd vendor/ui && node_modules/.bin/vite preview",
+        "tauri": "cargo tauri dev"
+      }
+}
