@@ -11,7 +11,8 @@ const TeacherReg = () => {
 
 export function Teacher() {
   return (
-    <div id="Teacher">
+    <div id="Teacher" className="container">
+      Hello from teachers
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import "./css/Splash.css";
+import React from "react";
 
 export function Splash() {
   return (

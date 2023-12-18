@@ -5,6 +5,8 @@ interface HomeProps {
   theme: "dark" | "light" | "auto";
 }
 
+
+
 export function Home(props: HomeProps) {
-  return <div id="Home">Home</div>;
+  return <div id="Home" className="container">Home</div>;
 }

@@ -3,7 +3,8 @@ import React from "react";
 
 export function Student() {
   return (
-    <div id="Students">
+    <div id="Student" className="container">
+      Hello from Students
     </div>
   );
 }

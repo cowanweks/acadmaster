@@ -8,8 +8,11 @@ export default defineConfig(async () => ({
   resolve: {
     alias: {
       "@components": path.resolve(__dirname, "./components"),
+      "@assets": path.resolve(__dirname, "./assets"),
+      "@hooks": path.resolve(__dirname, "./hooks"),
       "@containers": path.resolve(__dirname, "./containers"),
       "@providers": path.resolve(__dirname, "./providers"),
+      "@pages": path.resolve(__dirname, "./pages"),
       "@utils": path.resolve(__dirname, "./utils")
     }
   },
@@ -26,7 +29,7 @@ export default defineConfig(async () => ({
   // https://tauri.studio/v1/api/config#buildconfig.beforedevcommand
   envPrefix: ["VITE_", "TAURI_"],
   build: {
-    outDir: 'dist',
+    outDir: '../../dist',
     // Tauri supports es2021
     target: process.env.TAURI_PLATFORM == "windows" ? "chrome105" : "safari13",
     // don't minify for debug builds

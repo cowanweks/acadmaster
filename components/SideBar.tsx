@@ -9,10 +9,13 @@ import {
   FiAirplay,
   FiBell,
 } from "react-icons/fi";
+import React from "react";
 import { TbHomeCog, TbTools, TbMathFunction, TbStars } from "react-icons/tb";
 import { GrUserWorker, GrWorkshop } from "react-icons/gr";
 import { SlGraduation } from "react-icons/sl";
 import { NavLink as Link } from "react-router-dom";
+
+import BrandLogo from "/assets/images/Icon64.svg"
 
 interface SideBarProps {
   toggled: boolean;
@@ -20,12 +23,15 @@ interface SideBarProps {
 
 const SideBar = (props: SideBarProps) => {
   return (
-    <div id="SideBar" className={props.toggled ? "" : ""}>
+    <div id="SideBar" className={props.toggled ? "" : ""} onMouseOver={() => {
+      // TODO
+      // Add the sidebar resize feature
+    }}>
       <img
-        alt="Brand Logo"
+        alt=""
         draggable="false"
         id="acadbrand"
-        // src={PlayIcon}
+        src={BrandLogo}
         style={{ width: "135px", height: "130px", objectFit: "contain" }}
         onContextMenu={(event) => {
           event.preventDefault();
@@ -65,7 +71,7 @@ const SideBar = (props: SideBarProps) => {
       </Link>
       <Link draggable="false" className="nav-item" to="/nonstaffs">
         <GrUserWorker opacity={0.7} />
-        <span>Non-Staff</span>
+        <span>Staffs</span>
       </Link>
       <Link draggable="false" className="nav-item" to="/events">
         <FiActivity />
@@ -91,7 +97,7 @@ const SideBar = (props: SideBarProps) => {
         <TbStars opacity={0.7} />
         <span>Extras</span>
       </Link>
-      <Link draggable="false" className="nav-item" to="/Account">
+      <Link draggable="false" className="nav-item" to="/account">
         <FiUsers />
         <span>Account</span>
       </Link>

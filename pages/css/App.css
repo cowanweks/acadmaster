@@ -2,7 +2,7 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 135px auto;
-  grid-template-rows: 45px auto 25px;
+  grid-template-rows: 35px auto 25px;
   grid-template-areas:
     "sidebar header"
     "sidebar ."
@@ -12,5 +12,4 @@
   border: 1px solid #272626a4;
 }
 
-@media only screen and (max-width: 700px) {
-}
+@media only screen and (max-width: 700px) {}
